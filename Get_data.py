@@ -4,13 +4,12 @@
 # Building on APIs
 # Let’s take the weather API from the previous page and create something useful. We’ll get weather data for the past 7 days, analyze it, visualize it, and save it.
 
-import requests
-from datetime import datetime, timedelta
-import pandas as pd
-import matplotlib.pyplot as plt
 import os
+from datetime import datetime, timedelta
 
-
+import matplotlib.pyplot as plt
+import pandas as pd
+import requests
 
 # Calculate dates
 today = datetime.now()
